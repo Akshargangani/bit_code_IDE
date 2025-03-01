@@ -29,7 +29,7 @@ const Login = () => {
 
         <p className='text-[gray]'>Don't have an account <Link to="/signUp" className='text-[#00AEEF]'>Sign Up</Link></p>
         
-        {/* <p className='text-red-500 text-[14px] my-2'>{error}</p> */}
+
 
         <button className="btnBlue w-full mt-[20px]">Login</button>
       </form>
