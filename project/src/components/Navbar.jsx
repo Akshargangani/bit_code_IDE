@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link>About</Link>
           <Link>Contact</Link>
           <Link>Services</Link>
-          <Avatar name="Wim Mostmans" size="150" />
+          <Avatar name="Wim Mostmans" size="40" round="50%" className='cursor-pointer ml-2' />
           {/* <button onClick={logout} className='btnBlue !bg-red-500 min-w-[120px] ml-2 hover:!bg-red-600'>Logout</button> */}
           {/* <Avatar onClick={() => { toggleClass(".dropDownNavbar", "hidden") }} name={data ? data.name : ""} size="40" round="50%" className=' cursor-pointer ml-2' /> */}
         </div>

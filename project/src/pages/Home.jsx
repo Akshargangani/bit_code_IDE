@@ -36,6 +36,8 @@ const Home = () => {
             </div>
          :   <div className="list">
          <ListCard />
+         <ListCard />
+         <ListCard />
 
        </div>
         }
