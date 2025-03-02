@@ -32,6 +32,8 @@ const Home = () => {
         {
           isGridLayout ?
           <div className="grid">
+            <GridCard />
+            <GridCard />
             <GridCard /> 
             </div>
          :   <div className="list">
