@@ -15,7 +15,6 @@ const App = () => {
       <Route path='/signUp' element={<SignUp />} />  
        <Route path='/Login' element={<Login />} />
        <Route path='/editior/:projectID' element={<Editior />} />
-       {/* <Route path='/editior/:projectID' element={isLoggedIn ? <Editior /> : <Navigate to="/Login"/>} />  */}
       <Route path="*" element={<NoPage />} />
     </Routes>
   </BrowserRouter>
