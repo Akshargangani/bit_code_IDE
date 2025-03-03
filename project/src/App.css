@@ -52,3 +52,20 @@ html{
   flex-wrap: wrap !important;
   gap: 10px;
 } 
+.lightMode{
+  background-color:  #fff !important ;
+  color: #0D0C0C !important;
+}
+
+.lightMode .EditiorNavbar{
+  background-color: #fff;
+  
+}
+.lightMode .tabs{
+  background-color: #f7f7f7;
+}
+
+.lightMode .tabs .tab{
+  background-color: #c2c1c1;
+  color: #000;
+} 

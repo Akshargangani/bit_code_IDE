@@ -18,8 +18,7 @@ const Navbar = () => {
           <Link>Contact</Link>
           <Link>Services</Link>
           <Avatar onClick={() => { toggleClass(".dropDownNavbar", "hidden") }} name="Wim Mostmans" size="40" round="50%" className='cursor-pointer ml-2' />
-          {/* <button onClick={logout} className='btnBlue !bg-red-500 min-w-[120px] ml-2 hover:!bg-red-600'>Logout</button> */}
-          {/* <Avatar onClick={() => { toggleClass(".dropDownNavbar", "hidden") }} name={data ? data.name : ""} size="40" round="50%" className=' cursor-pointer ml-2' /> */}
+        
         </div>
         <div className='dropDownNavbar hidden absolute right-[60px] top-[80px] shadow-lg shadow-black/50 p-[10px] rounded-lg bg-[#1A1919] w-[150px] h-[90px]'>
         <div className='py-[10px] border-b-[1px] border-b-[#fff]'>
