@@ -69,3 +69,7 @@ html{
   background-color: #c2c1c1;
   color: #000;
 } 
+.lightMode .btn{
+  background-color: #C2C1C1;
+  color: #000;
+}
