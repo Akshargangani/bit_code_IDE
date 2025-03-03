@@ -48,8 +48,7 @@ const Home = () => {
        <h3 className='text-2xl'>Create New Project</h3>
        <div className="inputBox !bg-[#202020] mt-4">
                <input
-                 // onChange={(e) => { setProjTitle(e.target.value) }}
-                 // value={projTitle}
+           
                  type="text"
                  placeholder='Project Title'
                />
